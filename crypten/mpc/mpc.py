@@ -32,7 +32,8 @@ class MPCTensor(CrypTensor):
         in size, which leads to undefined behavior.
 
         Alternatively, the parties can set `broadcast_size` to `True` to have the
-        `src` party broadcast the correct size. The parties who do not know the
+        `src` party broadcast the correct size. The parties who
+         do not know the
         tensor size beforehand can provide an empty tensor as input. This is
         guaranteed to produce correct behavior but requires an additional
         communication round.
